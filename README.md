@@ -13,51 +13,51 @@ Just install it, and open a file.
 
 # What can I customize? (Settings)
 You can customize the color, opacity, which character is used for each kind of end-of-line, and a few other things.<br>
-Settings Example:
+Settings Example (settings.js):
 ```
-        "code-eol.style" {
-            "color" : "#2a3f47",
-            "opacity" : 1.0
-            // there are more settings that can go in here
-            // see "ThemableDecorationAttachmentRenderOptions" on https://goo.gl/SYzyg8
-        },
-        // "code-eol.validLineEnding": "LF"  , // (optional) this makes "CRLF" endings render as error-color
-        // "code-eol.validLineEnding": "CRLF", // (optional) this makes "LF" endings render as error-color
-        "code-eol.toggleWithWhiteSpace": true,
-        "code-eol.newlineCharacter":"¬",
-        "code-eol.returnCharacter" :"⇠",
-        "code-eol.crlfCharacter"   :"↵",
-        "code-eol.newlineCharacterStyle" : {
-            color: "#2a3f47",
-            opacity: 0.9
-        },
-        "code-eol.returnCharacterStyle" : {
-            color: "#2a3f47",
-            opacity: 0.9
-        },
-        "code-eol.crlfCharacterStyle" : {
-            color: "#2a3f47",
-            opacity: 0.9
-        },
-        // some other symbols you might want to use:
-            // ¤
-            // ↓
-            // ←
-            // ↙
-            // ⇣
-            // ⇠
-            // ⇓
-            // ⇐
-            // ▼
-            // ◀
-            // ␤
-            // ¶
-            // ↲
-            // ↩
-            // ↴
-            // ⬎
-            // ⇂
-        // see more at https://unicode-table.com/en/sets/arrows-symbols/
+    "code-eol.style": {
+        "color" : "#2a3f47",
+        "opacity" : 1.0
+        // there are more settings that can go in here
+        // see "ThemableDecorationAttachmentRenderOptions" on https://goo.gl/SYzyg8
+    },
+    //"code-eol.validLineEnding": "LF"  , // (optional) this makes "CRLF" endings render as error-color
+    // "code-eol.validLineEnding": "CRLF", // (optional) this makes "LF" endings render as error-color
+    "code-eol.toggleWithWhiteSpace": true,
+    "code-eol.newlineCharacter":"¬",
+    "code-eol.returnCharacter" :"⇠",
+    "code-eol.crlfCharacter"   :"↵",
+    "code-eol.newlineCharacterStyle" : {
+        "color": "#2a3f47",
+        "opacity": 0.9
+    },
+    "code-eol.returnCharacterStyle" : {
+        "color": "#2a3f47",
+        "opacity": 0.9
+    },
+    "code-eol.crlfCharacterStyle" : {
+        "color": "#2a3f47",
+        "opacity": 0.9
+    },
+    // some other symbols you might want to use:
+        // ¤
+        // ↓
+        // ←
+        // ↙
+        // ⇣
+        // ⇠
+        // ⇓
+        // ⇐
+        // ▼
+        // ◀
+        // ␤
+        // ¶
+        // ↲
+        // ↩
+        // ↴
+        // ⬎
+        // ⇂
+    // see more at https://unicode-table.com/en/sets/arrows-symbols/
 ```
 <!-- <img width="376" src="https://github.com/jeff-hykin/code-eol/blob/master/Screen Shot 2018-05-07 at 11.41.35 PM.png"> -->
 
